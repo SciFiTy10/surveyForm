@@ -2,6 +2,14 @@
   text-align: center
 }
 
+#description{
+  text-align: center;
+}
+
+#survey-form{
+  background-color: #f2f2f2;
+}
+
 body{
   background-color: #98fb98;
 }
