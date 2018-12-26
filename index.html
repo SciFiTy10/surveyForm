@@ -16,6 +16,69 @@
 
     <p id="description">Let me know how I can improve the TalkLikeSnoop skill</p>
 
+    <form id="survey-form">
+      <label id = "name-label" for="name">Name: </label>
+      <input type="text" name="name" placeholder="Snoop Dogg" required><br>
+
+      <label id = "email-label" for="email">Email: </label>
+      <input type="email" name="email" placeholder="name@company.com" required><br>
+
+      <label id = "age-label" for="age">Age: </label>
+      <input type="number" name="age" placeholder="12" required min="1" max="100"><br>
+
+      <label id="dropdown-label" for ="dropdown">Which option best describes your current role?</label>
+      <select name="dropdown" id="dropdown">
+        <option value="student">Student</option>
+        <option value="full time job">Full Time Job</option>
+        <option value="full time learner">Full Time Learner</option>
+        <option value="other">Other</option>
+      </select><br><br>
+
+      <label for = "recommend">How likely are you to recommend this skill to a friend? </label>
+      <div id="recommend">
+
+        <input type="radio" name="recommend" id = "definitely" value="definitely">
+        <label id="definitely-label" for = "definitely">Definitely</label><br>
+
+        <input type="radio" name="recommend" id="maybe" value="maybe">
+        <label id="maybe-label" for = "maybe">Maybe</label><br>
+
+        <input type="radio" name="recommend" id="not sure" value="not sure">
+        <label id="not sure-label" for = "not sure">Not Sure</label><br><br>
+      </div>
+
+      <label for = "improve">Things that should be improved in the future
+(Check all that apply): </label>
+      <div id="improve">
+
+        <input type="checkbox" name="improve" id = "response-time" value="response-time">
+        <label id="response-time-label" for = "response-time">Response Time</label><br>
+
+        <input type="checkbox" name="improve" id="response-speed" value="response-speed">
+        <label id="response-speed-label" for = "response-speed">Response Speed</label><br>
+
+        <input type="checkbox" name="improve" id="more-things" value="more-things">
+        <label id="more-things-label" for = "more-things">More things for Snoop to do</label><br>
+
+        <input type="checkbox" name="improve" id="different-welcome" value="different-welcome">
+        <label id="different-welcome-label" for = "different-welcome">Different welcome phrases</label><br>
+
+        <input type="checkbox" name="improve" id="available" value="available">
+        <label id="available-label" for = "available">Available in other languages/countries</label><br>
+      </div>
+      <br>
+      <br>
+
+      <label id="additionalcomments-label" for = "additionalcomments">Any comments or suggestions?</label>
+      <input type="textarea" name="additionalcomments" id="additionalcomments" placeholder="Enter your comment here...">
+
+      <br>
+      <br>
+      <input type="button" name="submit" id="submit" value="Submit">
+
+
+    </form>
+
     <!--Javascript files should be linked at the bottom of the page-->
 
 
