@@ -8,8 +8,11 @@
 
 #submit{
   text-align: center;
-  background-color: #add8e6;
+  background-color: #007bff;
+  color: white;
   border-radius: 8px;
+  height: 30px;
+  width: 100px;
 }
 
 #survey-form{
