@@ -6,6 +6,12 @@
   text-align: center;
 }
 
+#submit{
+  text-align: center;
+  background-color: #add8e6;
+  border-radius: 8px;
+}
+
 #survey-form{
   background-color: #f2f2f2;
   margin-top: 25px;
@@ -13,12 +19,6 @@
   margin-right: 20px;
   padding-top: 10px;
 }
-
-#top-section{
-  text-align: justify;
-}
-
-
 
 
 body{
