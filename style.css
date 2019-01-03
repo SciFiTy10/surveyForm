@@ -2,6 +2,7 @@
   text-align: center
 }
 
+
 #description{
   text-align: center;
 }
@@ -15,16 +16,19 @@
   width: 100px;
 }
 
+
 #survey-form{
   background-color: #f2f2f2;
   margin-top: 25px;
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 10px;
+
 }
 
 
 body{
   background-color: #98fb98;
   font-family: Andale Mono, monospace;
+  text-align: center;
 }
